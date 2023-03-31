@@ -1,5 +1,6 @@
-const Notification = props => {
+const Notification = (props) => {
   //  Write your code here.
+  const {className , iconUrl, textContent} = props;
   const containerClassName = {`box-content ${className}`}
 
   return (
