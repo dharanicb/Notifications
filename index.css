@@ -10,13 +10,14 @@
   margin: 10px;
   background-color: blueviolet;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 .icon {
   height: 50px;
   width: 60px;
+  margin: 5px;
 }
 .text-content {
   font-family: "Roboto";
